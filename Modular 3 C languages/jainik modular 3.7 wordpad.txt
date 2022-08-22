@@ -1,0 +1,10 @@
+/*Write a program to convert temperature from degree centigrade to Fahrenheit*/
+#include<stdio.h>
+main()
+{
+    int c,b;
+    printf("enter a number:");
+    scanf("%d",&c);
+    b=(c*1.8)+32;
+    printf("centigrade to fahrenheit:%d",b);
+}
